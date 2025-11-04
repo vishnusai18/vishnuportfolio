@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Vishnu Sai Vardhan Reddy — Machine Learning Engineer | Data Scientist | AI Engineer. Explore projects, skills, and contact information.">
+  <title>Vishnu Sai Vardhan Reddy - Portfolio</title>
+
+  <!-- Fonts and Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Animations -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="shortcut icon" href="image/vishnu.jpeg" type="image/x-icon">
+</head>
+<body>
+  <a href="#home" class="skip-link">Skip to main content</a>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <h1 id="logo-text">Vishnu Sai Vardhan Reddy Basi Reddy Gari</h1>
+      </div>
+      <button class="menu-toggle" id="mobile-menu" aria-label="Toggle menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <ul class="nav-menu" id="primary-navigation">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="home" class="hero">
+    <div id="particles-js"></div>
+    <div class="container">
+      <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+        <h1>Hello, I'm <span class="highlight">Vishnu Sai V Ardhan Reddy</span></h1>
+        <h2>I'm a <span id="typing-text"></span></h2>
+        <p>Welcome to my portfolio! I build intelligent, scalable AI systems and data-driven solutions.</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn primary-btn">Contact Me</a>
+          <a href="#projects" class="btn secondary-btn">View My Work</a>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/vishnu-sai-reddy-3a9b5a243/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/vishnusai18" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+        <div class="profile-container">
+          <div class="profile-circle">
+            <img src="image/vishnu.jpeg" alt="Portrait of Vishnu Sai V Ardhan Reddy" id="profile-img" width="340" height="340">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>About Me</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-text" data-aos="fade-right" data-aos-duration="800">
+          <h3>Get to know me!</h3>
+          <p><span class="highlight">Vishnu Sai</span> is a <span class="highlight">Machine Learning Engineer</span> pursuing his Master's at the University of Maryland in Applied Machine Learning.</p>
+          <p>He designs scalable AI systems combining GenAI, RAG, and distributed training pipelines. Previously, he worked at Maruti Suzuki India Ltd developing agentic data analysis systems and fine-tuned LLMs for real-time analytics.</p>
+          <div class="about-buttons">
+            <a href="resume/vishnu_sai_AI_Intern.pdf" class="btn primary-btn" id="download-cv">Download Resume</a>
+          </div>
+        </div>
+        <div class="about-details" data-aos="fade-left" data-aos-duration="800">
+          <div class="detail-item">
+            <i class="fas fa-user-graduate"></i>
+            <div>
+              <h4>Education</h4>
+              <p>Applied Machine Learning, UMD (2025-2027)</p>
+              
+              <p>Computer Science (Data Science), VIT (2019-2023)</p>
+              
+            </div>
+          </div>
+          <div class="detail-item">
+            <i class="fas fa-briefcase"></i>
+            <div>
+              <h4>Experience</h4>
+              <p>ML Engineer @ Maruti Suzuki India Ltd (Jun 2023 - Jul 2025)</p>
+              <p>ML Engineer Intern @ Maruti Suzuki India Ltd (Jan 2023 - Jun 2023)</p>
+            </div>
+          </div>
+          <div class="detail-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Location</h4>
+              <p>College Park, MD</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>My Projects</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <h3>AI Event Reminder</h3>
+          <p>iOS app that converts OCR text into calendar events using Tesseract, MLX, and Core ML. Fine-tuned SmolLM-360M achieving &lt; 2 s inference latency.</p>
+        </div>
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <h3>Visual Search Engine</h3>
+          <p>CLIP-based multimodal retrieval system using PyTorch, FAISS, and Hugging Face Transformers (&lt; 200 ms latency for 100K images).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>My Skills</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+        <div class="skill-item"><i class="fas fa-database"></i> SQL, MySQL</div>
+        <div class="skill-item"><i class="fas fa-brain"></i> PyTorch, MLX, TensorFlow</div>
+        <div class="skill-item"><i class="fas fa-robot"></i> Agentic AI, RAG, LLM Finetuning</div>
+        <div class="skill-item"><i class="fab fa-aws"></i> AWS, Azure, GCP</div>
+        <div class="skill-item"><i class="fab fa-docker"></i> Docker, Kubernetes</div>
+        <div class="skill-item"><i class="fas fa-server"></i> FastAPI, MLflow</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Contact Me</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info" data-aos="fade-right" data-aos-duration="800">
+          <p>Email: <a href="mailto:vishnubr@umd.edu">vishnubr@umd.edu</a></p>
+          <p>Phone: +1 227-275-1335</p>
+          <p>Location: College Park, MD</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="current-year"></span> Vishnu Sai Vardhan Reddy — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ===== Scripts ===== -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
+
